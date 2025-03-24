@@ -67,11 +67,6 @@ class QuizPage extends StatelessWidget {
                         onPressed: () => quizCubit.restartQuiz(),
                         child: Text('اعادة الاختبار'),
                       ),
-                      SizedBox(width: 20),
-                      ElevatedButton(
-                        onPressed: () => quizCubit.stopQuiz(),
-                        child: Text('إنهاء الاختبار'),
-                      ),
                     ],
                   ),
                 ],
